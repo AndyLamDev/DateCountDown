@@ -1,0 +1,41 @@
+body{
+    background-image: url("imgs/New\ Years\ Day.png");
+    background-repeat: no-repeat,repeat;    
+    color: black;
+    background-position: center;
+    background-size:cover ;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.Title{
+    height: 200px;
+    font-size: 50px;
+    text-align: center;
+}
+.TimerCon{
+    display: flex;
+    justify-content: center;
+}
+.DaysCon,.HoursCon,.MinCon,.SecCon{
+    text-align: center;
+}
+.Bigtxt{
+    font-size: 75px;
+    margin: 0;
+}
+.Labels{
+    font-size: 50px;
+    padding: 10px;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    
+}
+.buttons, Button{
+    font-size: 16px;
+    padding:14px 28px; 
+    margin: 5px;
+    color: black;
+}
